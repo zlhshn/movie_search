@@ -4,7 +4,7 @@ import { MdFavorite } from "react-icons/md";
 import { useState } from "react";
 import { IoStarSharp } from "react-icons/io5";
 
-const ProductCard = ({title,price ,image ,id}) => {
+const ProductCard = ({title,price ,image ,id,director}) => {
 
   const [show, setShow] = useState(false)
 
@@ -17,7 +17,7 @@ const ProductCard = ({title,price ,image ,id}) => {
       <Card.Img variant="top" src={image} className="player-logo" />
 
       <Card.Footer className="card__over">
-        <Card.Title>{title}</Card.Title>
+        <Card.Title> <p>{title}</p> <p>Director :{director}</p> </Card.Title>
       </Card.Footer>
     </Card>
   );
