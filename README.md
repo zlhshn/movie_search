@@ -7,7 +7,7 @@ In this project, I added the functions of filtering movies by category and filte
 
 ## Project look
 
-![list]()
+![list](./list.gif)
 
 
 ## Tech/framework used
