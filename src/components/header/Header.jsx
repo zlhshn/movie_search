@@ -6,7 +6,7 @@ export const Header = ({categories,handleFilter}) => {
 
   return (
     <Container className="header">
-      <h1>Products List</h1>
+      <h1>Movies List</h1>
       <Stack
         direction="vertical"
         gap={3}

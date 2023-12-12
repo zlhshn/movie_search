@@ -19,7 +19,7 @@ const ProductsList = () => {
     <>
       <Header categories={categories} handleFilter={handleFilter} />
       <Form.Control
-        placeholder="Search Product..."
+        placeholder="Search Movie..."
         type="search"
         className="w-50 m-auto"
         onChange={(e) => setValue(e.target.value)}
