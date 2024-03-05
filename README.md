@@ -1,5 +1,5 @@
 ## Description 
-In this project, I added the functions of filtering movies by category and filtering by both category and search value using React.
+This project used filtering movies by category and filtering by both category and search value.
 
 ## Project Link
 
